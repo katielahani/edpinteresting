@@ -22,7 +22,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 
-group :development :test do
+group :development, :test do
 	gem 'sqlite3'
 end 
 
